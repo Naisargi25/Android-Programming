@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NativeCppApp</string>
+    <string name="pass_your_name_to_jni">PASS YOUR NAME TO JNI</string>
+    <string name="return_string_array">RETURN STRING ARRAY</string>
+
+</resources>

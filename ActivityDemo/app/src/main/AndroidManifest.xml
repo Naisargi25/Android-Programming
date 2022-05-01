@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ademo.activitydemo">
+    <!-- Service -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ActivityDemo">
+        <activity
+            android:name=".MusicActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity"
+            />
+        <activity
+            android:name=".FragmentActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".AccelerometerSensor"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".BatteryDemo"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".StartingActivity"
+            android:exported="true"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AllTasksActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Task3LayoutActivity"
+            android:exported="false"
+            android:label="Vitamins"
+            android:parentActivityName=".AllTasksActivity"
+            android:theme="@style/Layout2" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCBqtPOOtq1IIdcX1Ppo6OJQ5vgpqgsEyU" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".ProximityActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".SensorActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".MultiLanguageActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".Task2Linearlayout"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity"
+            android:theme="@style/Layout1" />
+        <activity
+            android:name=".RecyclerViewActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".ListActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".TabbedActivityDemo"
+            android:exported="true"
+            android:label="@string/title_activity_tabbed_demo"
+            android:theme="@style/Theme.ActivityDemo.NoActionBar"
+            android:parentActivityName=".AllTasksActivity"/>
+
+        <service android:name=".NewService" />
+
+        <receiver android:name=".MyBroadcastReceiver" />
+
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="true"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.ActivityDemo.NoActionBar" />
+        <activity
+            android:name=".MaterialDesign"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".splashActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".RelativeLayoutActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".LinearLayoutActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".IntentActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".LogActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".FirstActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:parentActivityName=".AllTasksActivity" />
+    </application>
+
+</manifest>

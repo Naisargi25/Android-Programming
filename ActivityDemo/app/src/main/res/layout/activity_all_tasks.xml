@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllTasksActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2">
+
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Activity life cycle"
+                    android:textSize="11dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:id="@+id/alc"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Log Activity"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:id="@+id/logact"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2">
+
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="List Activity"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/lstact"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Battery Service"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/battery"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2">
+
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Recyclerview"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/recycle"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Sensor Activity"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/sensor"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2">
+
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Intent Activity"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/intentact"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Multilanguage"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/multilan"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2">
+
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Spinner Activity"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/spinact"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Map Activity"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/mapact"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2">
+
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Proximity Sensor"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/proximity"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Accelerometer Sensor"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/accel"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2">
+
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Navigation Activity"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/navigation"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Tabbed Activity"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/tab"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2">
+
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Fragment Activity"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/fragment"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Relative Layout"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/rel"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2">
+
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Music Activity"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/music"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="Splash Activity"
+                    android:textSize="@dimen/margin_11"
+                    android:textStyle="bold"
+                    android:id="@+id/splash"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
